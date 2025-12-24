@@ -44,6 +44,7 @@ If the scene lacks configuration, perform the manual setup below.
 ### Manual Scene Setup
 
 Player
+
 - Create a `Player` GameObject (Capsule or custom model).
 - Add a `Rigidbody` component (enable interpolation for smoother movement) and a `Health` component. Set the GameObject tag to `Player`.
 - Add the `PlayerMotor`, `PlayerAim`, and `PlayerWeaponController` components.
@@ -51,18 +52,22 @@ Player
 - Ensure a `Camera` exists and is assigned to `PlayerAim` or is `Camera.main`.
 
 Projectile prefab and pool
+
 - Create a prefab with a Collider and `Rigidbody` (disable gravity) and add the `Projectile` script.
 - Add a `ProjectilePool` GameObject, assign the prefab and configure `prewarm` as desired.
 - Assign the `ProjectilePool` reference on the player's `PlayerWeaponController`.
 
 Enemy prefab and spawner
+
 - Create an enemy prefab with a `Rigidbody`, add `EnemyChaser` and `ContactDamage` components, and tag the prefab `Enemy`.
 - Place an `EnemySpawner` in the scene and assign the player `Transform` and enemy prefab.
 
 Game manager
+
 - Add a `GameManager` to an empty GameObject and assign the player's `Health` component (or leave blank to auto-find at Awake).
 
 Layers and masks
+
 - Configure scene layers (e.g., `Floor`) and set `PlayerAim` → `aimMask` to target the appropriate layers so aim raycasts hit the ground.
 
 ## Input

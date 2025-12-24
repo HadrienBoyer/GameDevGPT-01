@@ -1,6 +1,9 @@
-Ajoute les scripts de gameplay : Core, Player, Combat, Enemies et Game.
+# PR Body
 
-Fichiers ajoutés :
+Add scripts: Core, Player, Combat, Enemies and Game.
+
+Added scripts:
+
 - [Assets/Scripts/Core/LayerMaskUtil.cs](Assets/Scripts/Core/LayerMaskUtil.cs)
 - [Assets/Scripts/Core/Health.cs](Assets/Scripts/Core/Health.cs)
 - [Assets/Scripts/Player/PlayerMotor.cs](Assets/Scripts/Player/PlayerMotor.cs)
@@ -14,8 +17,8 @@ Fichiers ajoutés :
 - [Assets/Scripts/Game/EnemySpawner.cs](Assets/Scripts/Game/EnemySpawner.cs)
 - [Assets/Scripts/Game/GameManager.cs](Assets/Scripts/Game/GameManager.cs)
 
-Contexte :
-- Branche source : `feature/add-scripts`
-- Branche cible : `main`
-- Commit poussé localement sur `feature/add-scripts`
+Context and setup instructions are in [Assets/README_INSTALL.md](Assets/README_INSTALL.md).:
 
+- Source branch: `feature/add-scripts`
+- Target branch: `main`
+- Commit pushed locally on `feature/add-scripts`
