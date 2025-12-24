@@ -4,19 +4,17 @@ Petit projet Unity d'exemple (TappyTale) contenant des scripts de gameplay minim
 
 ## Daily Unity Game/Project Summary
 
-Création d'un jeu de tir simple avec un joueur, des ennemis, et un système de gestion de jeu, pour démontrer les bonnes pratiques de développement de jeux sur Unity et démontrer la simplicité d'utilisation de GitHub Copilot. Chaque projet est accompagné d'un fichier `pr_body.md` pour faciliter la création de Pull Requests.
+Building a simple shooter with a player, enemies, and a game management system to demonstrate Unity game development best practices and the simplicity of using GitHub Copilot. Each project includes a `pr_body.md` file to streamline Pull Request creation.
 
-Le projet est structuré avec les dossiers suivants :
+The project is structured with the following folders:
 
-- `Assets/Scripts/Core` : Scripts utilitaires et de base (ex: gestion de la santé, masques de calque).
-- `Assets/Scripts/Player` : Scripts liés au joueur (mouvement, visée, contrôle des armes).
-- `Assets/Scripts/Combat` : Scripts liés au combat (armes, projectiles, pool de projectiles).
-- `Assets/Scripts/Enemies` : Scripts liés aux ennemis (IA de poursuite, dégâts de contact).
-- `Assets/Scripts/Game` : Scripts de gestion du jeu (génération d'ennemis, gestionnaire de jeu).
+- `Assets/Scripts/Core`: Utility and base scripts (e.g., health management, layer masks).
+- `Assets/Scripts/Player`: Player-related scripts (movement, aiming, weapon control).
+- `Assets/Scripts/Combat`: Combat-related scripts (weapons, projectiles, projectile pool).
+- `Assets/Scripts/Enemies`: Enemy-related scripts (chasing AI, contact damage).
+- `Assets/Scripts/Game`: Game management scripts (enemy spawning, game manager).
 
-Le projet inclut également un fichier `CHANGELOG.md` pour suivre les modifications apportées.
-
-# GameDevGPT-01
+The project also includes a `CHANGELOG.md` file to track changes.
 
 ## Project Summary
 
@@ -97,13 +95,6 @@ gh pr create --base main --head feature/add-scripts \
 ## CHANGELOG
 
 See `CHANGELOG.md` at the repository root for initial entries.
-
----
-Maintenance: this repository keeps `README.md` and `CHANGELOG.md` at the root. Please keep them updated when making notable changes.
-
-## CHANGELOG
-
-See `CHANGELOG.md` at the project root for the initial entries.
 
 ---
 Maintenance: this repository keeps `README.md` and `CHANGELOG.md` at the root. Please keep them updated when making notable changes.
